@@ -1,0 +1,13 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
