@@ -3,11 +3,22 @@
 .env.*
 !.env.example
 
-# Jupyter temporary files
-.ipynb_checkpoints/
-
-# Python generated files
-__pycache__/
-*.py[cod]
+# Python virtual environments
 .venv/
 venv/
+env/
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Jupyter temporary files and locally installed kernelspecs
+.ipynb_checkpoints/
+share/jupyter/kernels/
+
+# macOS metadata
+.DS_Store
